@@ -7,12 +7,9 @@
 *.dll
 *.so
 *.dylib
-<<<<<<< HEAD
 main
 **/builds/*
 
-=======
->>>>>>> 5bb9c6a (Initial commit)
 
 # Test binary, built with `go test -c`
 *.test
