@@ -7,9 +7,12 @@
 *.dll
 *.so
 *.dylib
+<<<<<<< HEAD
 main
 **/builds/*
 
+=======
+>>>>>>> 5bb9c6a (Initial commit)
 
 # Test binary, built with `go test -c`
 *.test
@@ -22,6 +25,7 @@ main
 
 # Go workspace file
 go.work
+<<<<<<< HEAD
 
 # Local .terraform directories
 **/.terraform/*
@@ -32,3 +36,5 @@ go.work
 
 # hcl
 *.hcl
+=======
+>>>>>>> 5bb9c6a (Initial commit)
