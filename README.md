@@ -119,6 +119,7 @@ Feel free to customize the content and sections according to your project's need
 
 #### Results
 The example will output the following results:
+IP Address will be different
 
 ```bash
 2023/05/14 23:42:44 us-east-1 proxy_0
