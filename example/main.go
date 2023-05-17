@@ -38,7 +38,8 @@ func main() {
 			FunctionName: aws.String(functionName),
 			Payload:      []byte(payload), // Replace with your desired payload as a JSON string
 		}
-		log.Println("us-east-1", functionName)
+		// Region:FuncName
+		log.Println(svc.Config.Region, functionName)
 		// Invoke the Lambda function
 		result, err := svc.Invoke(input)
 		if err != nil {
